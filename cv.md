@@ -1,4 +1,5 @@
 # Maksim Lapko
+![Avatar](photo.jpg)
 
 ---
 
@@ -39,6 +40,7 @@ I graduated from the Belarusian National Technical University with a degree in N
 | BNTU            |            Student             | 2014 - 2018 |
 | My business  | Electronics & diagnostics cars | 2018 - 2021 |
 | Nuclear Power Plant |            Engineer            |  2018 - now |
+
 ---
 
 ## Courses
@@ -48,6 +50,7 @@ I graduated from the Belarusian National Technical University with a degree in N
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ---
-## English
+
+## Languages
 * English - PreIntermediate
 * Russian - Native
