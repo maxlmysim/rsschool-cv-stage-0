@@ -52,12 +52,13 @@ function numberToRomanNumber(number) {
 ---
 
 ## Experience
-| Work            |            Position            |  Experience |
-|-----------------|:------------------------------:|------------:|
-| YouTube         |            Blogger             | 2013 - 2017 |
-| BNTU            |            Student             | 2014 - 2018 |
-| My business  | Electronics & diagnostics cars | 2018 - 2021 |
-| Nuclear Power Plant |            Engineer            |  2018 - now |
+**YouTube**  =>  *Blogger* => 2013 - 2017
+
+**BNTU**  => *Student* => 2014 - 2018
+
+**My business**  => *Electronics & diagnostics cars*  => 2018 - 2021
+
+**Nuclear Power Plant**  =>  *Engineer*  =>  2018 - now
 
 ---
 
