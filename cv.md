@@ -30,7 +30,7 @@ I graduated from the Belarusian National Technical University with a degree in N
 
 ## Code Example
 ```
-function solution(number) {
+function numberToRomeNumber(number) {
 
     let hundreds = ['C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'];
     let tens = ['X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'];
