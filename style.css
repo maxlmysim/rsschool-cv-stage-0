@@ -1,3 +1,121 @@
 body {
-    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h2 {
+    background-color: #b2a9a9
+}
+
+.contact-img {
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+    /*nav*/
+header {
+    background-color: yellow;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+/*main*/
+main {
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: row;
+}
+
+/*left-side*/
+.left-side {
+    flex-grow: 1;
+}
+
+.my-avatar {
+    width: 100%;
+    height: min-content;
+}
+
+/*contacts*/
+.contacts {
+    /*background-color: #343945;*/
+}
+
+.contact{
+
+}
+.contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    height: 21px;
+}
+
+.contact-logo-map {
+    background-image: url(img/map.svg)
+}
+
+.contact-logo-email {
+    background-image: url(img/email.svg)
+}
+
+.contact-logo-instagram {
+    background-image: url(img/instagram.svg)
+}
+
+.contact-logo-telegram {
+    background-image: url(img/telegram.svg)
+}
+
+.contact-logo-github {
+    background-image: url(img/github.svg)
+}
+
+/*courses*/
+.courses-list {
+    list-style: none;
+    padding: 0;
+}
+
+/*right-side*/
+.right-side {
+    flex-grow: 5;
+}
+
+
+/*footer*/
+footer {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .img-rs_school_js {
+    width: 90px;
+}
+
+.footer-github {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-github-logo {
+    background-image: url(img/github.svg);
 }
