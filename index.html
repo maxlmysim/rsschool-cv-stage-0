@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maksim Lapko</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code-example">Code Example</a></li>
+            <li><a href="#my-projects">My projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+    <button class="burger"></button>
+</header>
+<main>
+    <div class="left-side">
+        <div class="avatar-left-side"><img src="img/avatar.jpg" alt="avatar" class="my-avatar"></div>
+        <div id="contacts" class="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li class="contact-block">
+                    <div class="contact-img contact-logo-map"></div>
+                    <div class="contact">Minsk, Belarus</div>
+                </li>
+                <li class="contact-block">
+                    <div class="contact-img contact-logo-phone"></div>
+                    <div class="contact"><a href="tel:+375339002508">+375 (33) 900-25-08</a></div>
+                </li>
+                <li class="contact-block">
+                    <div class="contact-img contact-logo-email"></div>
+                    <div class="contact"><a href="mailto:maxlmysim@gmail.com">maxlmysim@gmail.com</a></div>
+                </li>
+                <li class="contact-block">
+                    <div class="contact-img contact-logo-instagram"></div>
+                    <div class="contact"><a href="https://www.instagram.com/maxlmysim/">maxlmysim</a></div>
+                </li>
+                <li class="contact-block">
+                    <div class="contact-img contact-logo-telegram"></div>
+                    <div class="contact"><a href="https://t.me/maxlmysim">maxlmysim</a></div>
+                </li>
+                <li class="contact-block">
+                    <div class="contact-img contact-logo-github"></div>
+                    <div class="contact"><a href="https://github.com/maxlmysim">maxlmysim</a></div>
+                </li>
+            </ul>
+        </div>
+        <div id="education">
+            <h2>Education</h2>
+            <div class="education-block">
+                <div class="date education-date">2014-2018</div>
+                <p class="education-text">Belarusian National Technical University, Engineer</p>
+            </div>
+            <div class="education-block">
+                <div class="date education-date">2021-now</div>
+                <p class="education-text">RS-School course, developer</p>
+            </div>
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="page-title">
+            <h1 class="main-title">Maksim Lapko</h1>
+            <p>Front-End developer</p></div>
+        <div class="avatar-right-side"><img src="img/avatar.jpg" alt="avatar" class="my-avatar"></div>
+        <div class="about-me" id="about-me">
+            <h2>About me</h2>
+            <p>I graduated from the Belarusian National Technical University with a degree in NPP steam turbine. I work
+                to NPP
+                at the moment. I am a professional specialist in diagnostics and electronics of cars. I want to learn
+                JavaScript
+                so that after studying I can become a good programmer.
+            </p>
+        </div>
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Engineering</li>
+                <li>HTML&amp;CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>C++ (Basic)</li>
+                <li>VSCode, WebStorm</li>
+                <li>Git, GitHub</li>
+            </ul>
+        </div>
+        <div class="code-example-div" id="code-example">
+            <h2>Code Example</h2>
+            <div class="code-example"><pre class="hljs"
+                                           style="display: block; overflow-x: auto; background: rgb(32, 32, 29); color: rgb(166, 162, 140); padding: 0.5em;"><span
+                    class="hljs-function"><span class="hljs-keyword"
+                                                style="color: rgb(184, 84, 212);">function</span> <span
+                    class="hljs-title" style="color: rgb(102, 132, 225);">numberToRomeNumber</span>(<span
+                    class="hljs-params" style="color: rgb(182, 86, 17);">number</span>) </span>{
+
+    <span class="hljs-keyword" style="color: rgb(184, 84, 212);">let</span> hundreds = [<span class="hljs-string"
+                                                                                              style="color: rgb(96, 172, 57);">'C'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'CC'</span>, <span class="hljs-string"
+                                                                                                style="color: rgb(96, 172, 57);">'CCC'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'CD'</span>, <span class="hljs-string"
+                                                                                                style="color: rgb(96, 172, 57);">'D'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'DC'</span>, <span class="hljs-string"
+                                                                                                style="color: rgb(96, 172, 57);">'DCC'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'DCCC'</span>, <span class="hljs-string"
+                                                                                                  style="color: rgb(96, 172, 57);">'CM'</span>];
+    <span class="hljs-keyword" style="color: rgb(184, 84, 212);">let</span> tens = [<span class="hljs-string"
+                                                                                          style="color: rgb(96, 172, 57);">'X'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'XX'</span>, <span class="hljs-string"
+                                                                                                style="color: rgb(96, 172, 57);">'XXX'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'XL'</span>, <span class="hljs-string"
+                                                                                                style="color: rgb(96, 172, 57);">'L'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'LX'</span>, <span class="hljs-string"
+                                                                                                style="color: rgb(96, 172, 57);">'LXX'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'LXXX'</span>, <span class="hljs-string"
+                                                                                                  style="color: rgb(96, 172, 57);">'XC'</span>];
+    <span class="hljs-keyword" style="color: rgb(184, 84, 212);">let</span> units = [<span class="hljs-string"
+                                                                                           style="color: rgb(96, 172, 57);">'I'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'II'</span>, <span class="hljs-string"
+                                                                                                style="color: rgb(96, 172, 57);">'III'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'IV'</span>, <span class="hljs-string"
+                                                                                                style="color: rgb(96, 172, 57);">'V'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'VI'</span>, <span class="hljs-string"
+                                                                                                style="color: rgb(96, 172, 57);">'VII'</span>, <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'VIII'</span>, <span class="hljs-string"
+                                                                                                  style="color: rgb(96, 172, 57);">'IX'</span>];
+    <span class="hljs-keyword" style="color: rgb(184, 84, 212);">let</span> result = <span class="hljs-string"
+                                                                                           style="color: rgb(96, 172, 57);">''</span>;
+
+    <span class="hljs-keyword" style="color: rgb(184, 84, 212);">let</span> digits = number.toString().split(<span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">''</span>).map(<span class="hljs-built_in"
+                                                                                                  style="color: rgb(182, 86, 17);">Number</span>).reverse().forEach((digit, index) =&gt; {
+        <span class="hljs-keyword" style="color: rgb(184, 84, 212);">if</span> (digit !== <span class="hljs-number"
+                                                                                                style="color: rgb(182, 86, 17);">0</span>) {
+            <span class="hljs-keyword" style="color: rgb(184, 84, 212);">if</span> (index === <span class="hljs-number"
+                                                                                                    style="color: rgb(182, 86, 17);">0</span>) result = units[digit - <span
+                        class="hljs-number" style="color: rgb(182, 86, 17);">1</span>] + result;
+            <span class="hljs-keyword" style="color: rgb(184, 84, 212);">if</span> (index === <span class="hljs-number"
+                                                                                                    style="color: rgb(182, 86, 17);">1</span>) result = tens[digit - <span
+                        class="hljs-number" style="color: rgb(182, 86, 17);">1</span>] + result;
+            <span class="hljs-keyword" style="color: rgb(184, 84, 212);">if</span> (index === <span class="hljs-number"
+                                                                                                    style="color: rgb(182, 86, 17);">2</span>) result = hundreds[digit - <span
+                        class="hljs-number" style="color: rgb(182, 86, 17);">1</span>] + result;
+            <span class="hljs-keyword" style="color: rgb(184, 84, 212);">if</span> (index === <span class="hljs-number"
+                                                                                                    style="color: rgb(182, 86, 17);">3</span>) result = <span
+                        class="hljs-string" style="color: rgb(96, 172, 57);">'M'</span>.repeat(digit) + result;
+        }
+    });
+    <span class="hljs-keyword" style="color: rgb(184, 84, 212);">return</span> result;
+};</pre>
+            </div>
+        </div>
+        <div class="my-projects" id="my-projects">
+            <h2>My projects</h2>
+            <ul class="projects-list">
+                <li class="projects-item">
+                    <a href="https://maxlmysim.github.io/rsschool-cv/">
+                        <img src="img/project-cv.png" alt="projects-cv">
+                        <p>CV</p>
+                    </a>
+                <li>
+            </ul>
+        </div>
+        <div class="languages" id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English - Pre-Intermediate</li>
+                <li>Russian - Native</li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer-github">
+        <div class="contact-img footer-github-logo"></div>
+        <a href="https://github.com/maxlmysim" target="_blank" class="footer-github">My GitHub</a>
+    </div>
+    <p>© 2021 by Maksim Lapko</p>
+    <a href="https://rs.school/js/" target="_blank"><img src="img/rs-logo.svg" alt="rs school" class="img-rs_school_js"></a>
+
+</footer>
+</body>
+</html>
