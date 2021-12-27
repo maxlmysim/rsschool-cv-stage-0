@@ -2,11 +2,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1280px;
 
 }
 
 h2 {
-    background-color: #b2a9a9
+    background-color: #b2a9a9;
+    border-left: 10px solid goldenrod;
+    padding-left: 5px;
+    color: #343945;
 }
 
 .contact-img {
@@ -14,11 +19,19 @@ h2 {
     width: 20px;
     height: 20px;
     margin-right: 10px;
-  }
+}
 
-    /*nav*/
+.date {
+    background-color: gold;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 10px;
+    color: black;
+}
+
+/*nav*/
 header {
-    background-color: yellow;
+    background-color: #b2a9a9;
 }
 
 header nav ul {
@@ -27,11 +40,10 @@ header nav ul {
     list-style: none;
     justify-content: space-around;
     padding: 0;
-  }
+}
 
 /*main*/
 main {
-    background-color: darkseagreen;
     display: flex;
     flex-direction: row;
 }
@@ -39,6 +51,8 @@ main {
 /*left-side*/
 .left-side {
     flex-grow: 1;
+    background-color: rgba(37, 38, 47, 0.73);
+    color: #fff;
 }
 
 .my-avatar {
@@ -47,13 +61,14 @@ main {
 }
 
 /*contacts*/
-.contacts {
-    /*background-color: #343945;*/
+.contact a {
+    color: #fff;
 }
 
-.contact{
-
+.contact a:hover {
+    text-decoration: none;
 }
+
 .contacts ul {
     list-style: none;
     padding: 0;
@@ -98,9 +113,51 @@ main {
 }
 
 
+/*main title*/
+.page-title {
+    margin: 125px 80px 125px 60px;
+    padding: 0;
+}
+
+.main-title {
+    font-size: 50px;
+}
+
+.page-title p {
+    font-size: 20px;
+}
+
+/*about me*/
+.about-me p {
+    margin: 0 50px;
+}
+
+/*skills*/
+.skills ul {
+    margin: 0 50px;
+}
+
+/*code example*/
+.hljs {
+    margin: 0 50px;
+    overflow-x: scroll;
+    display: flex;
+    width: 50vw;
+}
+
+/*my projects*/
+.my-projects {
+
+}
+
+/*languages*/
+.languages ul {
+    margin: 0 50px;
+}
+
 /*footer*/
 footer {
-    background-color: aquamarine;
+    background-color: rgba(141, 141, 141, 0.29);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
