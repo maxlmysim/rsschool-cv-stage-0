@@ -4,7 +4,6 @@ body {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1280px;
-
 }
 
 h2 {
@@ -39,6 +38,7 @@ header nav ul {
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0;
 }
 header nav ul a {
@@ -48,6 +48,10 @@ header nav ul a {
 header nav ul a:hover {
     background-color: gold;
     text-decoration: none;
+}
+
+.burger {
+    display: none;
 }
 
 /*main*/
@@ -137,6 +141,10 @@ main {
     font-size: 20px;
 }
 
+/*avatar*/
+.avatar-right-side {
+display: none;
+}
 /*about me*/
 .about-me p {
     margin: 0 50px;
@@ -157,13 +165,33 @@ main {
 }
 
 /*my projects*/
-.my-projects {
+.projects-list {
+    display: grid;
+    grid-template-columns: 40%;
+    list-style: none;
+}
 
+.projects-item img {
+    width: 100%;
+    border: 2px solid rgba(141, 141, 141)
+}
+.projects-item img:hover {
+    box-shadow: 0 0 15px rgba(141, 141, 141);
+    border: 2px solid rgba(141, 141, 141, 0)
+}
+
+.projects-item p{
+    margin: 0;
+    color: #000
+}
+
+.projects-item a:hover {
+    text-decoration: none;
 }
 
 /*languages*/
 .languages ul {
-    margin: 0 50px;
+    margin: 0 50px 10px;
     padding-left: 15px;
 }
 
@@ -187,4 +215,27 @@ footer .img-rs_school_js {
 
 .footer-github-logo {
     background-image: url(img/github.svg);
+}
+
+@media screen and (max-width: 700px) {
+
+    main {
+        flex-direction: column-reverse;
+    }
+    header nav li {
+        padding-bottom: 15px;
+    }
+
+    .avatar-left-side{
+        display: none;
+    }
+
+    .avatar-right-side {
+        display: block;
+    }
+
+    .page-title {
+        margin: 50px;
+        padding: 0;
+    }
 }
