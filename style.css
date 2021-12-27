@@ -31,7 +31,7 @@ h2 {
 
 /*nav*/
 header {
-    background-color: #b2a9a9;
+    background-color: rgba(178, 169, 169, 0.44);
 }
 
 header nav ul {
@@ -40,6 +40,14 @@ header nav ul {
     list-style: none;
     justify-content: space-around;
     padding: 0;
+}
+header nav ul a {
+    padding: 15px;
+    color: black;
+}
+header nav ul a:hover {
+    background-color: gold;
+    text-decoration: none;
 }
 
 /*main*/
@@ -71,7 +79,7 @@ main {
 
 .contacts ul {
     list-style: none;
-    padding: 0;
+    padding-left: 10px;
 }
 
 .contact-block {
@@ -83,6 +91,9 @@ main {
 
 .contact-logo-map {
     background-image: url(img/map.svg)
+}
+.contact-logo-phone {
+    background-image: url(img/phone.svg)
 }
 
 .contact-logo-email {
@@ -101,10 +112,9 @@ main {
     background-image: url(img/github.svg)
 }
 
-/*courses*/
-.courses-list {
-    list-style: none;
-    padding: 0;
+/*education*/
+.education-block {
+    padding-left: 10px;
 }
 
 /*right-side*/
@@ -135,6 +145,7 @@ main {
 /*skills*/
 .skills ul {
     margin: 0 50px;
+    padding-left: 15px;
 }
 
 /*code example*/
@@ -153,6 +164,7 @@ main {
 /*languages*/
 .languages ul {
     margin: 0 50px;
+    padding-left: 15px;
 }
 
 /*footer*/
