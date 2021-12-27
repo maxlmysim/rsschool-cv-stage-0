@@ -41,10 +41,12 @@ header nav ul {
     flex-wrap: wrap;
     padding: 0;
 }
+
 header nav ul a {
     padding: 15px;
     color: black;
 }
+
 header nav ul a:hover {
     background-color: gold;
     text-decoration: none;
@@ -96,6 +98,7 @@ main {
 .contact-logo-map {
     background-image: url(img/map.svg)
 }
+
 .contact-logo-phone {
     background-image: url(img/phone.svg)
 }
@@ -126,7 +129,6 @@ main {
     flex-grow: 5;
 }
 
-
 /*main title*/
 .page-title {
     margin: 125px 80px 125px 60px;
@@ -143,8 +145,9 @@ main {
 
 /*avatar*/
 .avatar-right-side {
-display: none;
+    display: none;
 }
+
 /*about me*/
 .about-me p {
     margin: 0 50px;
@@ -175,12 +178,13 @@ display: none;
     width: 100%;
     border: 2px solid rgba(141, 141, 141)
 }
+
 .projects-item img:hover {
     box-shadow: 0 0 15px rgba(141, 141, 141);
     border: 2px solid rgba(141, 141, 141, 0)
 }
 
-.projects-item p{
+.projects-item p {
     margin: 0;
     color: #000
 }
@@ -222,11 +226,12 @@ footer .img-rs_school_js {
     main {
         flex-direction: column-reverse;
     }
+
     header nav li {
         padding-bottom: 15px;
     }
 
-    .avatar-left-side{
+    .avatar-left-side {
         display: none;
     }
 
