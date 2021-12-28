@@ -221,6 +221,14 @@ footer .img-rs_school_js {
     background-image: url(img/github.svg);
 }
 
+.footer-github-text {
+    color: black;
+}
+
+.footer-github-text:hover {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 700px) {
 
     main {
