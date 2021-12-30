@@ -20,6 +20,7 @@ h2 {
     margin-right: 10px;
 }
 
+
 .date {
     background-color: gold;
     display: inline-block;
@@ -151,6 +152,7 @@ main {
 /*about me*/
 .about-me p {
     margin: 0 50px;
+    text-indent: 30px;
 }
 
 /*skills*/
