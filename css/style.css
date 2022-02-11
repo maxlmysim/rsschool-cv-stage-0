@@ -86,7 +86,44 @@ a {
     text-decoration: none;
 }
 
+/*education styles*/
 
+.education__item {
+    border-bottom: 2px solid #fff;
+}
+
+.education__item:last-child{
+    border-bottom: none;
+}
+
+.education__item-date {
+    background-color: gold;
+    display: inline-block;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.education__item-course{
+    width: 95%;
+    margin: 0 auto 8px auto;
+}
+
+.education__profession {
+    font-style: italic;
+    font-weight: 600;
+    color: #daa520;
+}
 /*left side end*/
+
+/*right side start*/
+
+
+
+/*right side end*/
+
+
+
 /* main styles end*/
 
