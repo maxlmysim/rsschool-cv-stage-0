@@ -1,0 +1,92 @@
+html {
+    /*box-sizing: border-box;*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+a {
+    transition: all 0.3s ease 0s;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/*header styles start*/
+
+.nav__items {
+    background: #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.nav__item a {
+    font-size: 16px;
+    padding: 14px 10px;
+}
+
+.nav__item a:hover {
+    background-color: #daa520;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*header styles end*/
+
+.section-title {
+    background-color: #b2a9a9;
+    border-left: 10px solid goldenrod;
+    padding-left: 7px;
+    font-size: 24px;
+    color: #343945;
+}
+
+/* main styles start*/
+
+.main {
+    display: flex;
+}
+
+/*left side start*/
+
+.main__left-side {
+    background-color: rgba(37, 38, 47, 0.73);
+    color: #fff;
+}
+
+/* avatar styles*/
+
+.left-side__avatar {
+    width: 256px;
+    height: 242px;
+}
+
+/*contacts styles*/
+.contacts-item {
+    margin: 10px 0;
+}
+
+.contact-item__img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 10px
+}
+
+.contact-item {
+    color: #fff;
+}
+
+.contact-item:hover {
+    text-decoration: none;
+}
+
+
+/*left side end*/
+/* main styles end*/
+
