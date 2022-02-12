@@ -12,8 +12,7 @@ a {
 }
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 1440px;
+    margin: 25px 10px 25px 30px ;
 }
 
 /*header styles start*/
@@ -44,6 +43,7 @@ a {
     border-left: 10px solid goldenrod;
     padding-left: 7px;
     font-size: 24px;
+    font-weight: 600;
     color: #343945;
 }
 
@@ -119,6 +119,40 @@ a {
 
 /*right side start*/
 
+/*page title*/
+
+.page-title-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.page-title__main {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.page-title__subtitle {
+    font-size: 20px;
+}
+
+/*about me*/
+
+.about-me__text {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.skills__list {
+    list-style: disc;
+    padding-left: 15px;
+}
+
+.skill__item {
+    margin-bottom: 5px;
+}
 
 
 /*right side end*/
